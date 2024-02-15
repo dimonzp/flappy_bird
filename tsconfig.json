@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "CommonJS",
+    "strict": true,
+    "esModuleInterop": true,
+    "baseUrl": "src"
+    
+  },
+  "include": ["src", "./src/index.ts", "./types/*.d.ts"]
+}
